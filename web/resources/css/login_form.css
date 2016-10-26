@@ -1,0 +1,214 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 oct. 2015, 23:10:44
+    Author     : Melissa
+*/
+@import url("font-awesome.css");            /* Font Awesome Icon */
+@import url("fontello.css");            /* Font Awesome Icon */
+@import url("longshadow.css");					/* Template Theme color skin */
+@import url("../plugins/jquery.fs.scroller/jquery.fs.scroller.css");					/* jquery.fs.scroller */
+@import url("../plugins/jquery.fs.selecter/jquery.fs.selecter.css");					/* jquery.fs.scroller */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700); /* google webfont */
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700|Roboto+Condensed:300,400,700); 
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	color: #fff;
+	font-family: Roboto Condensed, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+h1
+{
+    font-size: 40px;
+}
+
+#login a
+{
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
+
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(../../images/servider_login_bg.jpg);
+	background-size: cover;
+	z-index: 0;
+}
+
+.grad{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.header{
+	position: absolute;
+	top: calc(50% - 35px);
+	left: calc(50% - 255px);
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: #fff;
+        margin-left: -75px;
+	font-size: 30px;
+	font-weight: 100;
+        font-family: 'Oswald', sans-serif;
+}
+
+.header div span{
+	color: rgb(159, 70, 70) !important;
+        font-weight: 800;
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+}
+
+#login{
+	position: absolute;
+	top: calc(50% - 55px);
+	left: calc(50% - 55px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+#login input[type=text]{
+	width: 350px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: rgb(159, 70, 70);
+	font-family: 'Righteous', cursive;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+#login input[type=password]{
+	width: 350px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Righteous', cursive;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+#buttons
+{
+    width:350px;
+}
+
+#button1
+{
+    display: inline-block;
+    float: left;
+}
+#button2
+{
+    display: inline-block;
+    float: right;
+}
+
+#login input[type=submit]{
+	width: 170px;
+        display: inline-block;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+#login input[type=button] {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    color: #a18d6c;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Exo",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 35px;
+    margin-top: 10px;
+    padding: 6px;
+    width: 170px;
+}
+#login input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+#login input[type=submit]:active{
+	opacity: 0.6;
+}
+
+#login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+#login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+#login input[type=submit]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.9);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.9);
+}
+
+::-moz-placeholder { /* Firefox 18- */
+   color: rgb(159, 70, 70);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgb(159, 70, 70);
+}
+
+#message_erreur_connection {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Exo', sans-serif;
+}

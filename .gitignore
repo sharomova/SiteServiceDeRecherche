@@ -1,0 +1,22 @@
+build/web/WEB-INF/classes/.netbeans_automatic_build
+build/web/WEB-INF/classes/.netbeans_update_resources
+web/blobinc-servider-0dd2e6baccdf/ajax/1.html
+web/blobinc-servider-0dd2e6baccdf/
+build/web/blobinc-servider-0dd2e6baccdf/
+web/ajax/
+build/web/ajax/
+*.html
+*.class
+build.xml
+build/web/WEB-INF/glassfish-web.xml
+build/
+dist/
+nbproject/private/private.properties
+web/nbproject/private/private.properties
+nbproject/private/private.xml
+nbproject/genfiles.properties
+nbproject/project.properties
+src/java/hibernate.cfg.xml
+web/WEB-INF/glassfish-web.xml
+web/resources/js/register - Copy.txt
+web/nbproject/project.properties

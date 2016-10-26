@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 déc. 2015, 10:36:28
+    Author     : Christelle
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import "compass/css3";
+@import url("font-awesome.css");            /* Font Awesome Icon */
+@import url("fontello.css");            /* Font Awesome Icon */
+@import url("longshadow.css");					/* Template Theme color skin */
+@import url("../plugins/jquery.fs.scroller/jquery.fs.scroller.css");					/* jquery.fs.scroller */
+@import url("../plugins/jquery.fs.selecter/jquery.fs.selecter.css");					/* jquery.fs.scroller */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700); /* google webfont */
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700|Roboto+Condensed:300,400,700); 
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
+
+.personne{
+    display:inline-block;
+    position:relative;
+    width:200px;
+    margin:0 20px;
+    cursor:pointer;
+    vertical-align:top;
+}
+.personne > div{
+    width:100%;
+    height:200px;
+    border-radius:50%;
+    border: 14px solid transparent;
+    box-shadow: 2px 2px 2px  rgb(159, 70, 70);
+    text-align:center;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+
+.personne img{
+    height:100%;
+    margin:0 -50%;
+    transition: all 0.5s ease;
+}
+
+.personne > span {
+    background:#4593e3;
+    position:absolute;
+    z-index:1;
+    top:140px;
+    left:0px;
+    padding: 6px 20px 6px 40px;
+    font-family:'Raleway';
+    color:#FFF;
+    font-weight:400;
+    font-size:14px;
+    border-radius: 0 13px 13px 0;
+    transition: all 0.5s ease-in;
+}
+
+.personne:hover > span{padding-left:45px;display:none}
+.personne:hover img{height:105%;}
+.personne:hover > div {	border: 14px solid  rgb(188, 103, 103);}
+
+
+.personne h4  {
+    font-family:'Raleway';
+    text-align:left;
+    margin-top:3px;
+    color:#000;
+    font-size:18px;
+    padding-left:45px;
+}
+
+.personne h4 span {
+    display:block;
+    font-size:23px;
+    margin-left:15px
+}
+
+.apropos_image {
+    align-content: center;
+    margin-top: 100px;
+}
+
+#titre-apropos {
+    font-family: 'Raleway';
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#titre-apropos span {
+    font-family: 'Raleway';
+    font-size: 50px;
+    color: rgb(159, 70, 70);
+    font-weight: 900;
+}

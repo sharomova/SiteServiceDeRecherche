@@ -1,0 +1,8 @@
+diff a/nbproject/private/private.properties b/nbproject/private/private.properties	(rejected hunks)
+@@ -6,5 +6,5 @@
+ j2ee.server.middleware=C:/Users/47/Documents/glassfish4
+ javac.debug=true
+ javadoc.preview=true
+-selected.browser=Chrome.INTEGRATED
++selected.browser=SL[/Browsers/FirefoxBrowser
+ user.properties.file=C:\\Users\\47\\AppData\\Roaming\\NetBeans\\8.0.2\\build.properties

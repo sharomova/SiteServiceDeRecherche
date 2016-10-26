@@ -1,0 +1,244 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 nov. 2015, 10:13:11
+    Author     : Christelle
+*/
+@import url("font-awesome.css");            /* Font Awesome Icon */
+@import url("fontello.css");            /* Font Awesome Icon */
+@import url("longshadow.css");					/* Template Theme color skin */
+@import url("../plugins/jquery.fs.scroller/jquery.fs.scroller.css");					/* jquery.fs.scroller */
+@import url("../plugins/jquery.fs.selecter/jquery.fs.selecter.css");					/* jquery.fs.scroller */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700); /* google webfont */
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700|Roboto+Condensed:300,400,700); 
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+
+
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.titre_annonce {
+    font-size: 36px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 100%;
+    padding-right:5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.publie_le {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.image_annonce {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.descr_annonce {
+    font-size: 18px;
+    margin-top: 10px; 
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.present_offreur {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+.img-responsive {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: auto;
+    width: 100%;
+    max-height: 350px;
+    max-width: 200px;
+}
+
+.panel-body {
+    margin-left: 10px;
+}
+
+.more_infos_bar {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+}
+
+.info {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+hr.separator {
+    border: 0;
+    margin-top: 60px;
+    height: 2px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, rgb(159, 70, 70), #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, rgb(159, 70, 70), #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, rgb(159, 70, 70), #ccc);
+    background-image: -o-linear-gradient(left, #ccc, rgb(159, 70, 70), #ccc);
+}
+
+.ui-datepicker,
+.ui-datepicker table,
+.ui-datepicker tr,
+.ui-datepicker td,
+.ui-datepicker th {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-spacing: 0;
+}
+
+.ui-datepicker {
+    display: none;
+    width: 100%;
+    cursor: default;
+    text-transform: uppercase;
+    font-family: Tahoma;
+    font-size: 12px;
+    background: #141517;
+   // padding: 35px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 1px rgba(255,255,255, .1), inset 0px 1px 1px rgb(0,0,0);
+    -moz-box-shadow: 0px 1px 1px rgba(255,255,255, .1), inset 0px 1px 1px rgb(0,0,0);
+    box-shadow: 0px 1px 1px rgba(255,255,255, .1), inset 0px 1px 1px rgb(0,0,0);
+}
+
+.ui-datepicker-header {
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d6d6d6;
+}
+ 
+.ui-datepicker-title { text-align: center; }
+ 
+.ui-datepicker-month {
+    position: relative;
+    padding-right: 15px;
+    color: #565656;
+}
+ 
+.ui-datepicker-year {
+    padding-left: 8px;
+    color: #a8a8a8;
+}
+
+.ui-datepicker-month:before {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 5px;
+    height: 5px;
+    content: '';
+    background: #a5cd4e;
+    background: -moz-linear-gradient(top, #a5cd4e 0%, #6b8f1a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a5cd4e), color-stop(100%,#6b8f1a));
+    background: -webkit-linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
+    background: -o-linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
+    background: -ms-linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
+    background: linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
+ 
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.ui-datepicker-prev,
+.ui-datepicker-next {
+    position: absolute;
+    top: -2px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.voir_autres_annonces {
+    text-align: right;
+    color: #CC3300;
+    font-size: 14px;
+    font-family: Tahoma;
+}
+
+
+ 
+.ui-datepicker-prev {
+    left: 0;
+    padding-left: 0;
+}
+ 
+.ui-datepicker-next {
+    right: 0;
+    padding-right: 0;
+}
+ 
+.ui-datepicker-prev span,
+.ui-datepicker-next span{
+    display: block;
+    width: 5px;
+    height: 10px;
+    text-indent: -9999px;
+    background-image: url(../..//images/Right-32.png);
+}
+ 
+.ui-datepicker-prev span { background-position: 0px 0px; }
+ 
+.ui-datepicker-next span { background-position: -5px 0px; }
+ 
+.ui-datepicker-prev-hover span { background-position: 0px -10px; }
+ 
+.ui-datepicker-next-hover span { background-position: -5px -10px; }
+
+.ui-datepicker-calendar th {
+    padding-top: 15px;
+    padding-bottom: 10px;
+ 
+    text-align: center;
+    font-weight: normal;
+    color: #a8a8a8;
+}
+.ui-datepicker-calendar td {
+    padding: 0 7px;
+ 
+    text-align: center;
+    line-height: 26px;
+}
+ 
+.ui-datepicker-calendar .ui-state-default {
+    display: block;
+    width: 26px;
+    outline: none;
+ 
+    text-decoration: none;
+    color: #a8a8a8;
+ 
+    border: 1px solid transparent;
+}
+
+.ui-datepicker-calendar .ui-state-active {
+    color: #6a9113;
+    border: 1px solid #6a9113;
+}
+ 
+.ui-datepicker-other-month .ui-state-default { color: #565656; }
+

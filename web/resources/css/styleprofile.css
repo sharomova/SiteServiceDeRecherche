@@ -1,0 +1,106 @@
+
+#like_button
+{
+  margin-left:50px;
+  margin-right:50px;
+  width:100px;
+  height:100px;
+  border-radius:100%;
+  padding:10px;
+  background-color:white;
+}
+#dislike_button
+{
+  margin-left:100px;
+  width:100px;
+  height:100px;
+  border-radius:100%;
+  padding:10px;
+  background-color:white;
+}
+#totalvotes
+{
+  float:left;
+  background-color:white;
+  padding:20px;
+  margin-left:300px;
+  margin-top:10px;
+  width:500px;
+  box-shadow:0px 0px 10px 0px #122A0A;
+  display:none;
+}
+#totalvotes p
+{
+  margin:0px;
+  padding:0px;
+}
+#totalvotes #total_rating
+{
+  font-weight:bold;
+  margin:0px;
+}
+#totalvotes img
+{
+  width:20px;
+  height:20px;
+  margin-right:5px;
+}
+#totalvotes #total_like
+{
+  float:left;
+  margin-top:20px;
+}
+#totalvotes #like_bar
+{
+  float:left;
+  width:200px;
+  height:20px;
+  background-color:green;
+  margin-left:20px;
+  margin-top:25px;
+}
+#totalvotes #total_dislike
+{
+  clear:both;
+  float:left;
+  margin-top:20px;
+}
+#totalvotes #dislike_bar
+{
+  float:left;
+  width:70px;
+  height:20px;
+  background-color:red;
+  margin-left:28px;
+  margin-top:25px;
+}
+
+
+//******************************
+glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-star:before {
+  content: "\e006";
+}
+.glyphicon-heart:before {
+  content: "\e005";
+}
+.star-fg .glyphicon-heart {
+   color: red !important;
+}
+
+
+
+
+
+
+

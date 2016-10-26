@@ -1,0 +1,9 @@
+diff a/web/resources/js/service_autocomplete.js b/web/resources/js/service_autocomplete.js	(rejected hunks)
+@@ -8,6 +8,7 @@
+ 
+     $("#services_autocomplete").autocomplete({
+         source: function (request, response) {
++<<<<<<< HEAD
+             $.getJSON("${pageContext.request.contextPath}/getServices", {
+                 term: request.term
+             }, response = $.ajax({//create an ajax request to load_page.php

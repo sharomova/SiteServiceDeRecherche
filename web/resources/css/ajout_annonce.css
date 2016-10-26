@@ -1,0 +1,194 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2 déc. 2015, 12:48:30
+    Author     : Christelle
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import "compass/css3";
+@import url("font-awesome.css");            /* Font Awesome Icon */
+@import url("fontello.css");            /* Font Awesome Icon */
+@import url("longshadow.css");					/* Template Theme color skin */
+@import url("../plugins/jquery.fs.scroller/jquery.fs.scroller.css");					/* jquery.fs.scroller */
+@import url("../plugins/jquery.fs.selecter/jquery.fs.selecter.css");					/* jquery.fs.scroller */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700); /* google webfont */
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700|Roboto+Condensed:300,400,700); 
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
+.titre_annonce {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 12px;
+    color: rgb(159, 70, 70) !important;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    background: rgb(30, 30, 40);
+}
+
+form {
+    max-width: 420px;
+    margin: 50px auto;
+}
+
+.feedback-input {
+    color: dimgray;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.feedback-input#titre{
+    height: 60px;
+}
+
+.feedback-input#nom {
+    height: 60px;
+    color: rgb(159, 70, 70) !important;
+}
+
+.feedback-input:focus {
+    border: 2px solid #CC4949;
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+[type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: #CC6666;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+[type="submit"]:hover {
+    background: #CC4949;
+}
+
+select {
+    color: dimgray;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+    background: url(../..//images/Expand_arrow_50.png) no-repeat right;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    
+}
+
+#header_non_connecte{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background: rgb(196,163,163);
+}
+
+#publier_annonce_disabled {
+    background: rgb(196, 163, 163) !important none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-family: "Montserrat",Arial,Helvetica,sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: -4px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+#publier{
+    float: left;
+    color: #CC6666;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Oswald', sans-serif;
+}
+
+#publier span{
+    color: rgb(159, 70, 70) !important;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#choisir_service{
+    color: rgb(159, 70, 70) !important;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#ajouter_service_message {
+    margin-top: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color: rgb(159, 70, 70) !important;
+}
+
+::-webkit-input-placeholder {
+   color: dimgrey;
+   font-size: 16px;
+   font-family: 'Oswald', sans-serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: dimgrey;  
+   font-size: 16px;
+   font-family: 'Oswald', sans-serif;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: dimgrey;  
+   font-size: 16px;
+   font-family: 'Oswald', sans-serif;
+}
+
+:-ms-input-placeholder {  
+   color: dimgrey;  
+   font-size: 16px;
+   font-family: 'Oswald', sans-serif;
+}
